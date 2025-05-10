@@ -33,6 +33,10 @@ public class Projectile : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (collision.gameObject.tag == "Asteroid")
+        {
+            Destroy(gameObject);
+        }
     }
 }
 
