@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -1064775604348612691, guid: 9c72c07c5de76ae4e9fb3d38ced3296b,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.46274513, g: 0.2901961, b: 0.70980394, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  explosionPrefab: {fileID: 8920579821759366217, guid: 91c9ab434a467a74fa1c972a458bd4c0,
+  explosionPrefab: {fileID: 718696587802126073, guid: 91c9ab434a467a74fa1c972a458bd4c0,
     type: 3}
 --- !u!61 &-7390590183874320079
 BoxCollider2D:

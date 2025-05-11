@@ -9,4 +9,8 @@ public class Main : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(1);
     }
+    public void PlayAgain()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
 }

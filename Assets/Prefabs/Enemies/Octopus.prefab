@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 911358066040257385}
   - component: {fileID: 1971052231608444776}
-  - component: {fileID: 6926152526806749983}
   - component: {fileID: 1424426050970394245}
   - component: {fileID: 6581667091089574446}
+  - component: {fileID: 1574568919618083440}
   m_Layer: 0
   m_Name: Octopus
   m_TagString: Enemy
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4031881277482155593, guid: 9c72c07c5de76ae4e9fb3d38ced3296b,
+  m_Sprite: {fileID: 2631009102301152151, guid: ab04f9a326701194e802179599da0284,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -85,32 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6926152526806749983
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2969540814219184621}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00054602884, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.1882353, y: 0.09411765}
-    newSize: {x: 0.1882353, y: 0.09411765}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0932316, y: 0.09411765}
-  m_EdgeRadius: 0
 --- !u!50 &1424426050970394245
 Rigidbody2D:
   serializedVersion: 4
@@ -149,3 +123,29 @@ MonoBehaviour:
   spawnTimer: 0
   spawnMax: 10
   spawnMin: 5
+--- !u!61 &1574568919618083440
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2969540814219184621}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9764706, y: 2.035294}
+    newSize: {x: 0.1882353, y: 0.09411765}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9764706, y: 2.035294}
+  m_EdgeRadius: 0
