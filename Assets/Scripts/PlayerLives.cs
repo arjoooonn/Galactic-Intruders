@@ -51,5 +51,26 @@ public class PlayerLives : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+        if (other.CompareTag("Beam"))
+        {
+            
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            lives -= 1;
+            for (int i = 0; i < livesUI.Length; i++)
+            {
+                if (i < lives)
+                {
+                    livesUI[i].enabled = true;
+                }
+                else
+                {
+                    livesUI[i].enabled = false;
+                }
+            }
+            if (lives <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }

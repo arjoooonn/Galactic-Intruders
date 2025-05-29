@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8294083807026595638}
   - component: {fileID: 2010992460673215283}
   - component: {fileID: 7727964893939388674}
+  - component: {fileID: 4876150075866705134}
   m_Layer: 0
   m_Name: Squid
   m_TagString: Enemy
@@ -127,3 +128,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4941176, y: 2.3882353}
   m_EdgeRadius: 0
+--- !u!114 &4876150075866705134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2402571283048936799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7cf0473bda76d742959f38b8e542947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyTag: Enemy

@@ -9,6 +9,12 @@ TagManager:
   - Projectile
   - EnemyProjectile
   - Asteroid
+  - Beam
+  - Boss
+  - BEnemy
+  - Crux
+  - Marax
+  - Marax2
   layers:
   - Default
   - TransparentFX
