@@ -14,7 +14,6 @@ public class TagBasedActivator : MonoBehaviour
     {
         GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag(tagToCheck);
 
-        // If only 1 remains (this enemy is about to be destroyed)
         if (taggedObjects.Length <= 1)
         {
             ActivateFinalStage();
@@ -34,7 +33,6 @@ public class TagBasedActivator : MonoBehaviour
     {
         if (playerTransform != null)
         {
-            // Handle CharacterController if present
             CharacterController cc = playerTransform.GetComponent<CharacterController>();
             if (cc != null)
             {
@@ -47,7 +45,6 @@ public class TagBasedActivator : MonoBehaviour
                 playerTransform.position = resetPosition;
             }
 
-            // Reset physics if needed
             if (resetPlayerVelocity)
             {
                 Rigidbody rb = playerTransform.GetComponent<Rigidbody>();
