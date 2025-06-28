@@ -15,10 +15,7 @@ public class Main : MonoBehaviour
     public void PlayAgain()
     {
         // Check if the startButton is not null and activate it
-        if (startButton != null)
-        {
-            startButton.SetActive(true);
-        }
+       
 
         SceneManager.LoadSceneAsync(0); // Load the starting scene
     }
